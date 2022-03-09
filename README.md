@@ -8,13 +8,12 @@
 
 # __Introduction__
 <h3><B>Project Summary </B></h3>
-
 The use of social media, specifically Twitter, has increasingly become widespread across the globe. Users hundreds of miles apart are connected to eachother, allowing for instant communication. In times of emergency, tweets/posts can be used to spread awareness and communicate the events taking place. With that, organizations are shifting their focuses to programmatically monitoring these sites. However, often times these posts can be ambiguous and it is difficult to interpret whether or not they are comminucating a real emergency. <br><br>
 
-<i><B>Our goal is to build an optimal machine learning model to determine which tweets are about real emergencies and which ones aren't.</i></B>
+<br><h3><B>Project Objective</h3></B>
+Our objective is to use text mining (regualr expressions and topic modeling) to build a Neural Net Classifier, Logistic Regression, and a Support Vector Machine. We will pre-process the data, build a term document matrix, and run it through our classifiers.
 
 <br><h3><B>Data Summary</h3></B>
-
 The data is 10,000 observations which include tweet information, such as: tweet id, tweet text, location, tweet keyword, and a target variable (a '0' or '1' and only included in train dataset). 
 
 <B>train.csv <i>(file)</i></b>
@@ -30,9 +29,6 @@ The data is 10,000 observations which include tweet information, such as: tweet 
 - <b>location</b> - the location the tweet was sent from (may be blank)
 - <b>keyword</b> - a particular keyword from the tweet (may be blank)
 
-<br><h3><B>Project Objective</h3></B>
-
-Our objective is to use text mining (regualr expressions and topic modeling) to build a Neural Net Classifier, Logistic Regression, and a Support Vector Machine. We will pre-process the data, build a term document matrix, and run it through our classifiers.
 
 # __Exploratory Analysis Stage (EDA)__
 ### __Visualizations__
